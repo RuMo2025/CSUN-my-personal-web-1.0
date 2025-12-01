@@ -1,1 +1,1 @@
-Here is my first website About me and csun
+Here is my first website About me
