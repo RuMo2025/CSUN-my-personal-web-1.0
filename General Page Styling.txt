@@ -1,0 +1,52 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Portrait Styling - Passport Size */
+.portrait img {
+    width: 150px;   /* approx 2 inches */
+    height: 150px;  /* keep square like passport photo */
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border: 2px solid #444;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
