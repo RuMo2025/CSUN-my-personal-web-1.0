@@ -8,12 +8,12 @@ body {
 
 /* Portrait Styling - Passport Size */
 .portrait img {
-    width: 150px;   /* approx 2 inches */
-    height: 150px;  /* keep square like passport photo */
+    width: 2in;    /* 2 inches wide */
+    height: 2in;   /* 2 inches tall */
     border-radius: 5px;
     display: block;
     margin: 0 auto;
-    object-fit: cover;
+    object-fit: cover; /* ensures proper crop if image ratio differs */
     border: 2px solid #444;
 }
 
@@ -49,4 +49,5 @@ th, td {
 th {
     font-weight: bold;
     background-color: #e0e0e0;
+
 }
